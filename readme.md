@@ -15,6 +15,7 @@ This repo contains some interesting challenges that I faced during completion of
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 - https://www.codility.com/
+- https://stackoverflow.com/questions/7837456/how-to-compare-arrays-in-javascript
 - https://devdocs.io/
 - 
 
