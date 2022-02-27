@@ -15,6 +15,12 @@
  * myReplace("His name is Tom", "Tom", "john") should return the string His name is John
  * myReplace("Let us get back to more Coding", "Coding", "algorithms") should return the string Let us get back to more Algorithms
  *
+ * Refs -
+ * ===========
+ * - https://stackoverflow.com/questions/8334606/check-if-first-letter-of-word-is-a-capital-letter
+ * - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test
+ * - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice
+ * 
  */
 
 function myReplace(str, before, after) {
