@@ -17,5 +17,7 @@ This repo contains some interesting challenges that I faced during completion of
 - https://www.codility.com/
 - https://stackoverflow.com/questions/7837456/how-to-compare-arrays-in-javascript
 - https://devdocs.io/
-- 
+
+### Certification
+- https://www.freecodecamp.org/certification/shubhrankr/javascript-algorithms-and-data-structures
 
