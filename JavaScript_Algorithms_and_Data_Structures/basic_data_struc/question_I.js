@@ -19,3 +19,20 @@ function copyMachine(arr, num) {
 }
 
 console.log(copyMachine([true, false, true], 2));
+
+// You can achieve the same results without 
+// using the spread opereator
+// the use of spread operator is to be expanded as single
+// values
+function updatedCopyMachine(arr, num) {
+    let newArr = [];
+    let newUpdatedArr = []
+    while (num >= 1) {
+        newArr.push(arr); // this will yield same result as above without using spread
+        newUpdatedArr.push(...arr)
+        num--;
+    }
+    return {newArr, newUpdatedArr};
+}
+
+console.log(updatedCopyMachine([true, false, true], 2)); // newUpdatedArr will be a classic example of spread operator
