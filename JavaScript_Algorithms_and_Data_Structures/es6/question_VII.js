@@ -26,9 +26,15 @@ const makeServerRequest = new Promise((resolve, reject) => {
     }
 });
 
+// makeServerRequest.then((result) => {
+//     console.log(result);
+// });
+// makeServerRequest.catch((error) => {
+//     console.log(error);
+// });
+
 makeServerRequest.then((result) => {
     console.log(result);
-});
-makeServerRequest.catch((error) => {
-    console.log(error);
-});
+}).catch((e) => {
+    console.error(e);
+})
